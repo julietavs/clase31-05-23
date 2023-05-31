@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/calculadora.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>calculadora</title>
+</head>
+<body>
+    <div id=container>
+        <form action="" name="calculator">
+            <input type="textfield" autocomplete="off" value="" name="ans" readonly>
+            <input type="button" value="7" class="gray" onclick="document.calculator.ans.value+='7'">
+            <input type="button" value="8" class="gray" onclick="document.calculator.ans.value+='8'">
+            <input type="button" value="9" class="gray" onclick="document.calculator.ans.value+='9'">
+            <input type="button" value="+" class="gray" onclick="document.calculator.ans.value+='+'">
+
+            <input type="button" value="4" class="gray" onclick="document.calculator.ans.value+='4'">
+            <input type="button" value="5" class="gray" onclick="document.calculator.ans.value+='5'">
+            <input type="button" value="6" class="gray" onclick="document.calculator.ans.value+='6'">
+            <input type="button" value="-" class="gray" onclick="document.calculator.ans.value+='-'">
+
+            <input type="button" value="1" class="gray" onclick="document.calculator.ans.value+='1'">
+            <input type="button" value="2" class="gray" onclick="document.calculator.ans.value+='2'">
+            <input type="button" value="3" class="gray" onclick="document.calculator.ans.value+='3'">
+            <input type="button" value="x" class="gray" onclick="document.calculator.ans.value+='*'">
+
+            <input type="button" value="0" class="gray" onclick="document.calculator.ans.value+='0'"> 
+            <input type="reset" value="c" class="gray">
+            <input type="button" value="=" class="gray" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+            <input type="button" value="/"  onclick="document.calculator.ans.value+='/'">
+            
+
+
+
+
+           
+
+
+        
+        </form>
+    </div>
+</body>
+</html>
